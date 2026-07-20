@@ -1,0 +1,9 @@
+# Ignore environment files
+.env
+
+# Ignore large model files or cache
+*.wav
+*.mp3
+__pycache__/
+.ipynb_checkpoints/
+.local/
