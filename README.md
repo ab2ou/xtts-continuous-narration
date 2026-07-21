@@ -2,6 +2,8 @@
 
 A Python-based application built with **Gradio** and **Coqui TTS (XTTS v2)** designed for high-quality, long-form continuous voice cloning and narration. It automatically cleans reference audio, splits long text into manageable chunks, generates speech sequentially, and applies smooth cross-fading to merge the audio pieces seamlessly.
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1-5A7A_z8XArvoBxT9nwtuU6JwH9aEt4x?usp=drive_link)
+
 ## ✨ Features
 
 * **Voice Cloning:** Clone any voice using a short reference audio sample (WAV).
@@ -14,7 +16,7 @@ A Python-based application built with **Gradio** and **Coqui TTS (XTTS v2)** des
 
 ## 📋 Prerequisites
 
-Before running the project, make sure you have the following installed on your system:
+Before running the project, make sure you have the following installed on your system (if running locally):
 
 1. **Python 3.10+**
 2. **FFmpeg**: Required for audio processing and cleaning.
@@ -24,7 +26,7 @@ Before running the project, make sure you have the following installed on your s
 
 ---
 
-## 🛠️ Installation & Setup
+## 🛠️ Installation & Setup (Local)
 
 1. **Clone the repository:**
 ```bash
