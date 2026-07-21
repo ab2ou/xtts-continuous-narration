@@ -28,5 +28,27 @@ Before running the project, make sure you have the following installed on your s
 
 1. **Clone the repository:**
    ```bash
-   git clone (https://github.com/ab2ou/xtts-continuous-narration.git)
-   cd xtts-narration-project
+   git clone [https://github.com/ab2ou/xtts-continuous-narration.git](https://github.com/ab2ou/xtts-continuous-narration.git)
+   cd xtts-continuous-narration
+
+   1.Install the required dependencies:
+   pip install -r requirements.txt
+   🚀 Usage
+Run the application locally using Python:
+python app.py
+Once running, the terminal will provide a local URL (e.g., http://127.0.0.1:7860) as well as a public link if sharing is enabled. Open it in your browser to start generating audio.
+📁 Project Structure
+xtts-continuous-narration/
+│
+├── app.py              # Main application script (Gradio UI + TTS pipeline)
+├── requirements.txt    # Python dependencies list
+└── README.md           # Project documentation
+⚙️ Requirements File (requirements.txt)
+TTS
+gradio
+torch
+torchaudio
+numpy
+python-dotenv
+📜 License
+This project utilizes the Coqui Public Model License (CPML) via XTTS v2. Please review the licensing terms regarding commercial usage on the official Coqui AI repository.
