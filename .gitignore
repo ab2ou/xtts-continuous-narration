@@ -1,6 +1,4 @@
 __pycache__/
-*.pyc
 .env
 *.wav
-*.mp3
 .ipynb_checkpoints/
