@@ -28,5 +28,5 @@ Before running the project, make sure you have the following installed on your s
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/YOUR-USERNAME/xtts-narration-project.git](https://github.com/YOUR-USERNAME/xtts-narration-project.git)
+   git clone (https://github.com/ab2ou/xtts-continuous-narration.git)
    cd xtts-narration-project
