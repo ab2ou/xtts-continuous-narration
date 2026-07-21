@@ -1,7 +1,6 @@
-torch
-torchaudio
 TTS
 gradio
-transformers==4.33.3
-networkx>=2.5.0,<3.0.0
+torch
+torchaudio
 numpy
+python-dotenv
